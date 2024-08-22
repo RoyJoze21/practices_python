@@ -158,3 +158,8 @@ if __name__ == '__main__':
     window.configure(bg='#1378a5')
     application = Product(window)
     window.mainloop()
+
+
+
+
+#DB browser for SQLite
