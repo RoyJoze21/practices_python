@@ -275,7 +275,7 @@ const checkDateAndJoin = async (page) => {
   }
 };
 
-cron.schedule('57 16 * * 1-5', async () => { // Ejecuta a las 9:00 AM de lunes a viernes
+cron.schedule('51 08 * * 1-5', async () => { // Ejecuta a las 9:00 AM de lunes a viernes
   try {
     const browser = await puppeteer.launch({
       headless: false,
